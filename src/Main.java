@@ -27,6 +27,8 @@ public class Main {
             else  sum+=pay;
 
         }
-        
+        System.out.println("Mubadile olunacaq mebleg: "+ sum+ " USD");
+        System.out.println("Alacaginiz vesait: " + sum*1.7+" AZN" );
+
     }
 }
