@@ -14,7 +14,19 @@ public class Main {
             System.out.println("Kartnovu: Mastercard");
         } else System.out.println("Kart novu teyin edilmedi");
 
-        
+        System.out.println("Neche eded odenish olacaq? : ");
+        int payments = new Scanner(System.in).nextInt();
+        double sum=0;
+        for (int i = 0; i<payments; i++) {
+            System.out.println("Meblegi daxil et:");
+            int pay = new Scanner(System.in).nextInt();
+            if (pay<=0){
+                System.out.println("Yanlish secim.");
+                continue;
+            }
+            else  sum+=pay;
 
+        }
+        
     }
 }
