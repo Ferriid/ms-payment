@@ -2,7 +2,36 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Kartin 16 reqemini daxil et:");
+        Customer amin = new Customer("Amin",7);
+        Customer ferid = new Customer("Ferid",7);
+
+        Customer.welcome(amin);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*  System.out.println("Kartin 16 reqemini daxil et:");
         long cardNumber = new Scanner(System.in).nextLong();
         for (;9999999999999999l<cardNumber || cardNumber<1000000000000000l; ){
             System.out.println("Bir daha yoxlayin");
@@ -32,4 +61,6 @@ public class Main {
         System.out.println("Emeliyyatiniz tamamlandi.");
 
     }
+    */
+
 }
